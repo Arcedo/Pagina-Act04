@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Crimson+Text&family=Nunito+Sans:wght@300&display=swap');
+
+/* Body */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Header */
+header{
+    margin: auto;
+    padding-top: 0.2%;
+    padding-bottom: 0.1%;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("../Media/Louvre-Tuileries-Fleurissement-2019-139.jpg");
+    background-attachment: fixed;
+    text-align: center;
+    border-top: 1px solid #C5AC07;
+    border-bottom: 2.5px solid #C5AC07;
+}
+h1{
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Cinzel', serif;
+    font-size: 4em;
+    left: 38%;
+}
+h1 > strong{
+    color: #C5AC07;
+    font-size: 2em;
+}
+header > img{
+    padding-right: 25.5%;
+    padding-top: 0.29%;
+    width: 150px; 
+    height: 150px;
+}
+/* Nav */
+nav > ul{
+    position: relative;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    padding: 0px;
+}
+nav > ul > li{
+    list-style: none;
+    display: inline-block;
+    padding: 4% 3.6%;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.4em;
+    padding: 3px 1px;
+    transition: all 1s;
+}
+nav > ul > li >a:hover{
+    color: #C5AC07;
+    border-bottom: #F0E5BC solid 1px;
+}
+/* Que hacemos */
+header > div{
+    margin: 5.8% 24% 7.1%;
+    padding: 3% 4%;
+    background-color: #FFFFFF40;
+    font-size: 1.3em;
+}
+header > div > h2{
+    text-align: left;
+    color: #C5AC07;
+    text-decoration: underline;
+
+}
+header > div > p{
+    text-align: justify;
+    color: cornsilk;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Section */
+#sechome{
+    background-size: auto;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(91, 92, 94, 0.8), rgb(240, 248, 255, 0.8)), url("../Media/Louvre-Tuileries-Fleurissement-2019-139.jpg");
+    background-attachment: fixed;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2.5px solid #C5AC07;
+    padding-top: 9%;
+    padding-bottom: 10%;
+}
+#sechome > article{
+    filter: grayscale(0.8);
+    list-style: none;
+    display: inline-block;
+    width: 19%;
+    height: 360px;
+    padding: 1%;
+    vertical-align: top;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid #C5AC07;
+    transition: all 0.85s;
+}
+#sechome > article:hover{
+    filter: grayscale(0);
+    transform: scale(1.2); 
+    z-index: 2;
+}
+#sechome > article > div{
+    padding: 1% 5% 0px;
+    background-color: #FFFFFF;
+    height: 350px;
+    border: 1px solid #C5AC07;
+
+}
+#sechome > article > div > p{
+    color: #191510;
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.9em;
+}
+#sechome > article > div > a{
+    text-decoration: underline;
+    text-align: left;
+    color: #C5AC07;
+    font-family: 'Cinzel', serif;
+    font-size: 1.4em;
+    padding: 0px;
+}
+#sechome > article > div > a:hover{
+    color: #191510;
+}
+#sechome > article > div > a > h3{
+    padding: 0%;
+}
+#ar1{
+    background-size: auto;
+    background-position: 50% 50%;
+    background-image: url("../Media/apstrakcija-jpg.jpg");
+}
+#ar2{
+    background-size: auto;
+    background-position: 50% 25%;
+    background-image: url("../Media/286977@2x.jpg");
+}
+#ar3{
+    background-size: auto;
+    background-position: 50% 35%;
+    background-image: url("../Media/VLQKLLNIOMYYYEFSCAO3JO2BLQ.webp");
+}
+#ar4{
+    background-size: auto;
+    background-position: 50% 50%;
+    background-image: url("../Media/picasso.profil.jpg");
+}
+/* Footer */
+footer{
+    background-color: #191510;
+    color: #F0E5BC;
+    display: flex;
+    flex-shrink: 2;
+    padding: 0% 2% 0px;
+    border-top: 1px solid #C5AC07;  
+}
+footer > div{
+    display: inline-flex;
+    width: 50%;
+    padding-top: 1%;
+}
+footer > div > img{
+    display: block;
+    flex-direction: row;
+    width: 75px;
+    height: 75px;
+    padding-left: 0%;
+}
+footer > div > p{
+    display: block;
+    padding-top: 6%;
+    padding-left: 1%;
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+footer > article{
+    width: 49%;
+    flex-direction: row-reverse;
+    text-align: right;
+    padding-top: 1%;
+}
+footer > article > h3{
+    padding-right: 6%;
+    margin: 0%;
+    padding-bottom: 10px;
+    font-family: 'Cinzel', serif;
+}
+footer > article > ul{
+    padding: 0px;
+    margin: 0px;
+}
+footer > article > ul > li{
+    list-style: none;
+    display: inline-block;
+}
+footer > article > ul > li> a{
+    text-decoration: none;
+    font-size: 1.9em;
+    color: aliceblue;
+    transition: all 0.5s;
+}
+footer > article > ul > li> a:hover{
+    color: #C5AC07;
+}
+
+
+/* ABOUT */
+#abou{
+    padding: 0%;
+    margin: 0px;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(25, 21, 16, 0.8), rgba(25, 21, 16, 0.8)), url("../Media/Louvre-Tuileries-Fleurissement-2019-139.jpg");
+    background-attachment: fixed;
+    border-bottom: 2px solid #C5AC07;
+    margin: auto;
+    padding-bottom: 2%;
+}
+#abou > div{
+    width: 50%;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 3%;
+}
+#abou > div > p{
+    color: #F0E5BC;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Galeria About */
+#galeria{
+    background: url(../Media/wave.svg) bottom center no-repeat, linear-gradient(rgba(206, 211, 216, 0.8), rgba(103, 105, 107, 0.8)), url("../Media/Louvre-Tuileries-Fleurissement-2019-139.jpg") fixed center center;
+    background-size: 150%;
+    padding-bottom: 2%;
+    margin: auto;
+}
+#galeria h2{
+    background-color: #191510;
+    margin: auto;
+    border-bottom: 2px solid #C5AC07;
+    padding-top: 1%;
+}
+h2{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    color: #C5AC07;
+    padding-bottom: 0px;
+    padding-top: 3%;
+    margin: 0%;
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+section> p{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 0px;
+}
+#galeria >div{
+    margin-left: 15%;
+    padding-top: 2.5%;
+
+}
+section >div> div{
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+section >div> div > img{
+    width: 80%;
+    box-shadow: #5A647580 10px 10px;
+}
+section >div> div > p{
+    font-family: 'Nunito Sans', sans-serif;
+    width: 80%;
+    padding: 0%;
+    text-align: center;
+}
+.white{
+    color: aliceblue;
+}
+#fotab{
+    border-top: none;
+}
+
+/* Contact */
+#map{
+    float: left;
+    border-right: 2.2px solid #C5AC07;
+}
+#contac{
+    text-align: left;
+    padding-right: 20%;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(91, 97, 102, 0.8), rgba(240, 248, 255, 0.8)), url("../Media/Louvre-Tuileries-Fleurissement-2019-139.jpg");
+    background-attachment: fixed;
+    margin: auto;
+}
+#contacto {
+    margin-left: 67%;
+    background-color: #19151080;
+    color: aliceblue;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+#contacto > form{
+    padding-left: 8%;
+}
+#contacto > form> legend{
+    color: #C5AC07;
+    text-decoration: underline;
+    font-size: 1.6em;
+    font-family: 'Crimson Text', serif;
+    padding-bottom: 4%;
+}
+.input{
+    width: 50%;
+    color: #191510;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgba(240, 248, 255, 0.5);
+    margin: 2% 0px;
+    transition: all 0.7s;
+}
+.input:focus{
+    background-color: rgba(240, 248, 255);
+    color: #867506;
+}
+#botonc{
+    background-color: #867506;
+    color: aliceblue;
+    width: 20%;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+#contac > div > ul > li{
+    list-style: none;
+    padding: 3% 0px;
+}
+
+/* Services */
+#services{
+    padding-top: 5%;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(91, 97, 102, 0.8), rgba(240, 248, 255, 0.8)), url("../Media/Louvre-Tuileries-Fleurissement-2019-139.jpg");
+    background-attachment: fixed;
+    padding-bottom: 5%;
+}
+#services >div >img{
+    width: 40%;
+    border: 2.5px solid #C5AC07;
+}
+#services >div{
+    padding-bottom: 5%;
+}
+#left{
+    background-size: auto;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(240, 248, 255, 0.95), rgba(240, 248, 255, 0.95)), url("../Media/Louvre-Tuileries-Fleurissement-2019-139.jpg");
+    background-attachment: fixed;
+    height: 422px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 10px 10px #0a0a0a80;
+}
+#left > img{
+    float: left;
+}
+#left > h2{
+    text-align: left;
+    margin-left: 43%;
+}
+#left > p{
+    text-align: justify;
+    margin-left: 45%;
+    margin-right: 10%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#right > img{
+    float: right;
+}
+#right > h2{
+    text-align: right;
+    margin-right: 43%;
+}
+#right > p{
+    text-align: justify;
+    margin-right: 45%;
+    margin-left: 10%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#right{
+    background-size: auto;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(240, 248, 255, 0.95), rgba(240, 248, 255, 0.95)), url("../Media/Louvre-Tuileries-Fleurissement-2019-139.jpg");
+    background-attachment: fixed;
+    height: 421px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 10px 10px #0a0a0a80;
+}
+
+/* Blog */
+#blog{
+    background-size: auto;
+    background-position: 50% 50%;
+    background-image: linear-gradient(rgba(22, 22, 22, 0.8), rgba(24, 24, 24, 0.8)), url("../Media/Louvre-Tuileries-Fleurissement-2019-139.jpg");
+    background-attachment: fixed;
+}
+#blog p{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 7em;
+    padding-top: 5%;
+    padding-bottom: 13.48%;
+}
+#blog > p:hover{
+    color: red;
+}
+
+/* Clear para el el flooat */
+.clear{
+    clear: both;
+}
+

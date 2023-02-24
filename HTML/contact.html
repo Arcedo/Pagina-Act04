@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club de Arte</title>
+    <link rel="shortcut icon" href="../Media/logosquare2.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <!-- Header General -->
+    <header>
+        <h1><strong>C</strong>lub de Arte</h1>
+        <img src="../Media/logosquare1.png" alt="Logo de la pagina">
+        <nav>
+            <ul>
+                <li ><a href="../home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" style="border-bottom: 1px solid #F0E5BC">Contact</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- div para separar el mapa a un lado con flooat -->
+    <div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d693804.5836796153!2d85.97742491694406!3d28.247952764415217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e854a215bd9ebd%3A0x576dcf806abbab2!2sMonte%20Everest!5e0!3m2!1ses!2ses!4v1667502014104!5m2!1ses!2ses" width="800" height="864" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <section id="contac">
+            <!-- Direcion -->
+            <h2>Contactanos</h2>
+            <div id="contacto">
+                <ul>
+                    <li>Dirección: XWQF+6X Khumjung, Nepal</li>
+                    <li>Teléfono: +12 656 456 532</li>
+                    <li>Horarios: Lunes-Viernes 16:00-20:00</li>
+                </ul>
+                <!-- Formularo -->
+                <form action="" method="get">
+                        <legend>Formulario</legend>
+                        <div>
+                            <input type="text" name="nombre" placeholder="Nombre" class="input"><br>
+                            <input type="email" name="mail" placeholder="Email"required class="input"><br>
+                            <textarea name="texto" id="texto" placeholder="Escribe aqui..." class="input"></textarea><br>
+                            <input type="submit" id="botonc" value="Enviar">
+                        </div>
+                </form>
+            </div>
+            <!-- Div para limpiar el flooat -->
+            <div class="clear" id="clear"></div>
+        </section>
+    </div>
+    <!-- Footer general -->
+    <footer>
+        <div>
+            <img src="../Media/logosquare2.png" alt="Logo de la pagina">
+            <p><strong>&copy; By M. Arcedo</strong></p>
+        </div>
+        <article>
+            <h3>¡Síguenos!</h3>
+            <ul>
+                <li><a href=""><i class='bx bxl-instagram'></i></a></li>
+                <li><a href=""><i class='bx bxl-twitter' ></i></a></li>
+                <li><a href=""><i class='bx bxl-pinterest' ></i></a></li>
+                <li><a href=""><i class='bx bxl-meta' ></i></a></li>
+        </article>
+    </footer>
+</body>
+</html>
